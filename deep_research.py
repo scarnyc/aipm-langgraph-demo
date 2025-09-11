@@ -678,7 +678,7 @@ def conduct_research(query):
         
         # Create supervisor
         print("👨‍💼 Creating supervisor...")
-        supervisor = create_research_supervisor(pythonagents, claude)
+        supervisor = create_research_supervisor(agents, claude)
         
         # Compile with memory
         memory = MemorySaver()
